@@ -39,47 +39,52 @@
     {
       "icon": "fa fa-wordpress",
       "name": "Manicure",
-      "text": "100 Q."
+      "text": "Q.100"
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Planchados",
-      "text": "50 Q."
+      "text": "Q.50"
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Tintes",
-      "text": "Desde 125 Q."
+      "text": "Desde Q.125"
     },
     {
       "icon": "fa fa-language",
       "name": "Cortes",
-      "text": "50 Q."
+      "text": "Q.50"
     },
     {
       "icon": "fa fa-plane",
       "name": "Uñas",
-      "text": "Desde 50 Q."
+      "text": "Desde Q.50"
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Keratinas",
-      "text": "400 Q."
+      "text": "Q.400"
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Maquillajes",
-      "text": "Desde 150 Q."
+      "text": "Desde Q.150 "
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Cepillados y planchados",
-      "text": "Desde 50 Q."
+      "text": "Desde Q.50"
     },
     {
       "icon": "fa fa-pie-chart",
       "name": "Balayage",
-      "text": "425 Q."
+      "text": "Q.425"
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Pestañas pelo a pelo",
+      "text": "Desde Q.300 "
     }
   ],
   "Testimonials": [
