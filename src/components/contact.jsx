@@ -5,7 +5,8 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Swal from 'sweetalert2';
-
+import { FaFacebook } from 'react-icons/fa';
+import { AiFillInstagram, AiFillTikTok } from "react-icons/ai";
 
 const initialState = {
   name: "",
@@ -173,23 +174,23 @@ export const Contact = (props) => {
           <div className="col-md-12">
             <div className="row">
               <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
+              <ul>
+  <li>
+    <a href={props.data ? props.data.facebook : "/"}>
+      <FaFacebook size={32} />
+    </a>
+  </li>
+  <li>
+    <a href={props.data ? props.data.tiktok : "/"}>
+      <AiFillInstagram size={32} />
+    </a>
+  </li>
+  <li>
+    <a href={props.data ? props.data.instagram : "/"}>
+      <AiFillTikTok size={32} />
+      </a>
+  </li>
+</ul>
               </div>
             </div>
           </div>
