@@ -1,7 +1,7 @@
 {
   "name": "landingpage-react-template",
   "private": true,
-  "homepage": "https://SebastianVelasquez22901.github.io/MareviSalon",
+  "homepage": "http://SebastianVelasquez22901.github.io/MareviSalon",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
