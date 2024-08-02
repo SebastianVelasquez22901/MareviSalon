@@ -347,6 +347,17 @@ header .highlighted-text {
   background: linear-gradient(to right, #ffcccb 0%, #ffd700 100%); /* Peach y dorado */
   color: #fff; /* Blanco */
 }
+
+#services .service-desc-title {
+  margin: 10px 10px 20px;
+  font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+  color: #333; /* Cambia el color del texto */
+  padding: 20px; /* Agrega padding para más espacio */
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+}
+
 #services .service-desc {
   margin: 10px 10px 20px;
   font-size: 1.2em; /* Aumenta el tamaño de la fuente */
@@ -355,6 +366,7 @@ header .highlighted-text {
   background-color: #fff; /* Fondo blanco */
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  height: 25%; /* Ajusta el tamaño de los recuadros */
 }
 #services h2 {
   color: #fff; /* Blanco */
@@ -647,6 +659,7 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+
 
 @media (max-width: 1200px) {
   #features i.fa {
