@@ -1,11 +1,13 @@
 {
   "name": "landingpage-react-template",
   "private": true,
+  "homepage": "http://SebastianVelasquez22901.github.io/MareviSalon",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
+    "gh-pages": "^6.1.1",
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -15,6 +17,8 @@
     "sweetalert2": "^11.12.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
