@@ -36,7 +36,6 @@ export const Contact = (props) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
     
     
     
@@ -70,62 +69,62 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Contactanos</h2>
+                <h2>Contáctanos</h2>
                 <p>
                   Cualquier duda o comentario, no dudes en contactarnos ademas de que puedes agendar una cita con nosotros.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit} style={{ padding: "20px", border: "2px solid #FFD700", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
-  <div className="row">
-    <div className="col-md-6">
-      <div className="form-group">
-        <input
-          type="text"
-          id="name"
-          name="name"
-          className="form-control"
-          placeholder="Tu nombre"
-          required
-          onChange={handleChange}
-          style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc", marginBottom: "10px" }}
-        />
-        <p className="help-block text-danger"></p>
-      </div>
-    </div>
-    <div className="col-md-6">
-      <div className="form-group">
-        <input
-          type="email"
-          id="email"
-          name="email"
-          className="form-control"
-          placeholder="Tu email"
-          required
-          onChange={handleChange}
-          style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc", marginBottom: "10px" }}
-        />
-        <p className="help-block text-danger"></p>
-      </div>
-    </div>
-  </div>
-  <div className="form-group">
-    <textarea
-      name="message"
-      id="message"
-      className="form-control"
-      rows="4"
-      placeholder="Mensaje"
-      required
-      onChange={handleChange}
-      style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc", marginBottom: "10px" }}
-    ></textarea>
-    <p className="help-block text-danger"></p>
-  </div>
-  <div id="success"></div>
-  <button type="submit" className="btn btn-custom btn-lg">
-    Enviar
-  </button>
-</form>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      className="form-control"
+                      placeholder="Tu nombre"
+                      required
+                      onChange={handleChange}
+                      style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc", marginBottom: "10px" }}
+                    />
+                    <p className="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      className="form-control"
+                      placeholder="Tu email"
+                      required
+                      onChange={handleChange}
+                      style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc", marginBottom: "10px" }}
+                    />
+                    <p className="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  className="form-control"
+                  rows="4"
+                  placeholder="Mensaje"
+                  required
+                  onChange={handleChange}
+                  style={{ padding: "10px", borderRadius: "5px", border: "1px solid #ccc", marginBottom: "10px" }}
+                ></textarea>
+                <p className="help-block text-danger"></p>
+              </div>
+              <div id="success"></div>
+              <button type="submit" className="btn btn-custom btn-lg">
+                Enviar
+              </button>
+            </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">

@@ -39,7 +39,12 @@
     {
       "icon": "fa fa-wordpress",
       "name": "Manicure",
-      "text": "Q.100"
+      "text": "Q.125"
+    },
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Pedicure",
+      "text": "Q.125"
     },
     {
       "icon": "fa fa-cart-arrow-down",
@@ -83,8 +88,23 @@
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Pestañas pelo a pelo",
-      "text": "Desde Q.300 "
+      "name": "Pestañas (Clasicas)",
+      "text": "Q.300 "
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Pestañas (Hibrida)",
+      "text": "Q.350 "
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Pestañas (Volumen)",
+      "text": "Q.375 "
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Pestañas (Clasicas)",
+      "text": "Q.400 "
     }
   ],
   "Testimonials": [
