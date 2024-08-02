@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MareviSalon/static/css/main.bf57f045.css",
+    "main.js": "/MareviSalon/static/js/main.4d5aaceb.js",
+    "index.html": "/MareviSalon/index.html",
+    "main.bf57f045.css.map": "/MareviSalon/static/css/main.bf57f045.css.map",
+    "main.4d5aaceb.js.map": "/MareviSalon/static/js/main.4d5aaceb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf57f045.css",
+    "static/js/main.4d5aaceb.js"
+  ]
+}
