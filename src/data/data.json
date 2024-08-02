@@ -1,0 +1,170 @@
+{
+  "Header": {
+    "title": "Bienvenido a Marevi",
+    "paragraph": "El salon que fue hecho para ti, con los mejores productos y servicios para tu belleza."
+  },
+  "About": {
+    "paragraph": "Bienvenido a nuestro salón de belleza, donde ofrecemos una experiencia única y personalizada para cada cliente. Nuestro equipo de profesionales está dedicado a brindarte los mejores servicios de corte de cabello, tratamientos faciales, manicura y pedicura, y coloración de cabello. Ven y transforma tu look con nosotros.",
+    "Why": [
+      "Profesionales altamente capacitados",
+      "Ambiente relajante y acogedor",
+      "Productos de alta calidad",
+      "Atención personalizada"
+    ],
+    "Why2": [
+      "Cortes de cabello modernos y clásicos",
+      "Tratamientos faciales rejuvenecedores",
+      "Manicura y pedicura profesional",
+      "Coloración de cabello de alta calidad"
+    ]
+  },
+  "Gallery": [
+  {
+    "title": "Manicura",
+    "largeImage": "img/portfolio/img1-l.jpeg",
+    "smallImage": "img/portfolio/img1-s.jpeg"
+  },
+  {
+    "title": "Pedicura",
+    "largeImage": "img/portfolio/img2-l.jpeg",
+    "smallImage": "img/portfolio/img2-s.jpeg"
+  },
+  {
+    "title": "Manicura",
+    "largeImage": "img/portfolio/img3-l.jpeg",
+    "smallImage": "img/portfolio/img3-s.jpeg"
+  }
+],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Manicure",
+      "text": "100 Q."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Planchados",
+      "text": "50 Q."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Tintes",
+      "text": "Desde 125 Q."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Cortes",
+      "text": "50 Q."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Uñas",
+      "text": "Desde 50 Q."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Keratinas",
+      "text": "400 Q."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Maquillajes",
+      "text": "Desde 150 Q."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Cepillados y planchados",
+      "text": "Desde 50 Q."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Balayage",
+      "text": "425 Q."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "C.C. Molino de las flores local #30",
+    "phone": "+1 123 456 1234",
+    "email": "marevisalongua@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-scissors",
+      "title": "Corte de Cabello",
+      "text": "Cortes de cabello modernos y clásicos para todas las edades y estilos."
+    },
+    
+    {
+      "icon": "fa fa-leaf",
+      "title": "Tratamientos Faciales",
+      "text": "Disfruta de nuestros tratamientos faciales rejuvenecedores y relajantes."
+    },
+    {
+      "icon": "fa fa-user",
+      "title": "Coloración de Cabello",
+      "text": "Transforma tu look con nuestros servicios de coloración de cabello de alta calidad."
+    },
+    {
+      "icon": "fa fa-check-square",
+      "title": "Manicura y Pedicura",
+      "text": "Cuida tus manos y pies con nuestros servicios de manicura y pedicura profesional."
+    } 
+  ]
+}
