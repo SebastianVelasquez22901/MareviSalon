@@ -7,7 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Nuestro equipo</h2>
           <p>
-            Somos un equipo de profesionales que trabajamos juntos para ofrecerte un servicio de calidad y confianza.
+          "Estilistas, Cosmesmetólogas y Lashistas profesionales" con experiencia de más de 8 años
           </p>
         </div>
         <div id="row">
