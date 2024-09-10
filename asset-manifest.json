@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MareviSalon/static/css/main.bf57f045.css",
-    "main.js": "/MareviSalon/static/js/main.6b2a02bf.js",
+    "main.js": "/MareviSalon/static/js/main.f60486e5.js",
     "index.html": "/MareviSalon/index.html",
     "main.bf57f045.css.map": "/MareviSalon/static/css/main.bf57f045.css.map",
-    "main.6b2a02bf.js.map": "/MareviSalon/static/js/main.6b2a02bf.js.map"
+    "main.f60486e5.js.map": "/MareviSalon/static/js/main.f60486e5.js.map"
   },
   "entrypoints": [
     "static/css/main.bf57f045.css",
-    "static/js/main.6b2a02bf.js"
+    "static/js/main.f60486e5.js"
   ]
 }
