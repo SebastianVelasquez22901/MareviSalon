@@ -180,12 +180,12 @@ export const Contact = (props) => {
     </a>
   </li>
   <li>
-    <a href={props.data ? props.data.tiktok : "/"}>
+    <a href={props.data ? props.data.instagram : "/"}>
       <AiFillInstagram size={32} />
     </a>
   </li>
   <li>
-    <a href={props.data ? props.data.instagram : "/"}>
+    <a href={props.data ? props.data.tiktok : "/"}>
       <AiFillTikTok size={32} />
       </a>
   </li>
