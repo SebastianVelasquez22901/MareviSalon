@@ -71,7 +71,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Contáctanos</h2>
                 <p>
-                  Cualquier duda o comentario, no dudes en contactarnos ademas de que puedes agendar una cita con nosotros.
+                  Cualquier duda o comentario no dudes en contactarnos y agenda tu cita con nosotros.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit} style={{ padding: "20px", border: "2px solid #FFD700", borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
