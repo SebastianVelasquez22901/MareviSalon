@@ -136,7 +136,12 @@
     },
     {
       "img": "img/team/02.jpeg",
-      "name": "América García",
+      "name": "Ruth Nohemy de Díaz",
+      "job": "Estilista"
+    },
+    {
+      "img": "img/team/03.jpeg",
+      "name": "Yuliana Morales de Díaz",
       "job": "Estilista"
     }
   ],
