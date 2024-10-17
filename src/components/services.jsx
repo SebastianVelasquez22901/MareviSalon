@@ -1,4 +1,6 @@
 import React from "react";
+import { FaCcVisa, FaCcMastercard, FaApplePay, FaLink, FaQrcode } from "react-icons/fa";
+import '../styles/services.css';
 
 export const Services = (props) => {
   const { data } = props;
@@ -27,6 +29,39 @@ export const Services = (props) => {
               ))
             : "loading"}
         </div>
+        <div className="service-desc-title">
+        <div className="payment-methods">
+        <h3>Formas de Pago</h3>
+        <div className="payment-icons">
+          <div className="payment-icon">
+            <FaCcVisa size={40} />
+            <p>Visa</p>
+          </div>
+          <div className="payment-icon">
+            <FaCcMastercard size={40} />
+            <p>Mastercard</p>
+          </div>
+          <div className="payment-icon">
+            <FaApplePay size={40} />
+            <p>ApplePay</p>
+          </div>
+          <div className="payment-icon">
+            <FaLink size={40} />
+            <p>Links de pago</p>
+          </div>
+          <div className="payment-icon">
+            <FaQrcode size={40} />
+            <p>Códigos QR</p>
+          </div>
+        </div>
+        <div className="paggo-info">
+        <h4>Pagos con <a href="https://www.paggoapp.com/gt/inicio" target="_blank" rel="noopener noreferrer">Paggo.gt</a></h4>
+        <p>
+          También aceptamos pagos a través de <a href="https://www.paggoapp.com/gt/inicio" target="_blank" rel="noopener noreferrer"><strong>Paggo.gt</strong></a>, un servicio que permite realizar pagos de manera rápida y segura en línea. Con Paggo.gt, puedes pagar utilizando diversas formas de pago, incluyendo tarjetas de crédito y débito, transferencias bancarias y más.
+        </p>
+        </div>
+      </div>
+      </div>
       </div>
     </div>
   );
